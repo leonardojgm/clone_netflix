@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clone Netflix</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Parte de navegação do menu / Cabeçalho do site-->
+        <header>
+            <nav class="menu">
+                <div class="menu__navegacao">
+                    <a class="menu__logo" href="#">
+                        <img class="menu__logo_imagem" src="./img/logo.png" alt="Logo Netflix" />
+                    </a>
+                    <ul class="menu__links">
+                        <li>
+                            <a class="menu__link" href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="menu__link" href="#">Séries</a>
+                        </li>
+                        <li>
+                            <a class="menu__link" href="#">Filmes</a>
+                        </li>
+                        <li>
+                            <a class="menu__link" href="#">Bombando</a>
+                        </li>
+                        <li>
+                            <a class="menu__link" href="#">Minha lista</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="menu__botoes">
+                    <li>
+                        <a class="menu__botao" href="#">
+                            <i class="menu__botao__icone fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu__botao" href="#">
+                            <i class="menu__botao__icone fas fa-bell"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu__botao menu__user" href="#">                           
+                            <img src="img/user.png" alt="Avatar usuário" />
+                            <i class="menu__botao__icone fas fa-sort-down"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>   
+        <!-- Corpo principal do site -->
+        <main>
+            <div class="banner">
+                <img class="banner__logo" src="./img/poster.png" alt="Logo filme Spiderhead" />
+                <div class="banner__descricao">
+                    <p class="banner__texto">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da insdústia farmacêutica.</p>
+                    <div class="banner__botoes">
+                        <a class="banner__botao banner__assistir" href="#">
+                            <i class="banner__botao__icone fas fa-play"></i>
+                            <span>Assistir</span>
+                        </a>
+                        <a class="banner__botao banner__mais_informacoes" href="#">
+                            <i class="banner__botao__icone fas fa-thin fa-circle-info"></i>
+                            <span>Mais informações</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="trilho">
+                <section id="section1">
+                    <h2 class="trilho__titulo">Minha lista</h2>
+                    <div class="trilho__conteudo">
+                        <a href="#section1" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+                        <div class="trilho__card poster_01"></div>
+                        <div class="trilho__card poster_02"></div>
+                        <div class="trilho__card poster_03"></div>
+                        <div class="trilho__card poster_04"></div>
+                        <div class="trilho__card poster_05"></div>
+                        <div class="trilho__card poster_06"></div>
+                        <div class="trilho__card poster_07"></div>
+                        <a href="#section1" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+                    </div>
+                </section>
+                <section id="section2">
+                    <h2 class="trilho__titulo">Minha em alta</h2>
+                    <div class="trilho__conteudo">
+                        <a href="#section2" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+                        <div class="trilho__card poster_top_01"></div>
+                        <div class="trilho__card poster_top_02"></div>
+                        <div class="trilho__card poster_top_03"></div>
+                        <div class="trilho__card poster_top_04"></div>
+                        <div class="trilho__card poster_top_05"></div>
+                        <div class="trilho__card poster_top_06"></div>
+                        <div class="trilho__card poster_top_11"></div>
+                        <a href="#section2" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+                    </div>
+                </section>
+                <section id="section3">
+                <h2 class="trilho__titulo">Séries excêntricas de homar ácido</h2>
+                    <div class="trilho__conteudo">
+                        <a href="#section3" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+                        <div class="trilho__card poster_serie_01"></div>
+                        <div class="trilho__card poster_serie_02"></div>
+                        <div class="trilho__card poster_serie_03"></div>
+                        <div class="trilho__card poster_serie_05"></div>
+                        <div class="trilho__card poster_serie_06"></div>
+                        <div class="trilho__card poster_serie_07"></div>
+                        <div class="trilho__card poster_serie_08"></div>
+                        <div class="trilho__card poster_serie_09"></div>
+                        <div class="trilho__card poster_serie_10"></div>
+                        <div class="trilho__card poster_serie_11"></div>
+                        <div class="trilho__card poster_serie_12"></div>
+                        <div class="trilho__card poster_serie_13"></div>
+                        <div class="trilho__card poster_serie_14"></div>
+                        <div class="trilho__card poster_serie_15"></div>
+                        <div class="trilho__card poster_serie_16"></div>
+                        <div class="trilho__card poster_serie_17"></div>
+                        <div class="trilho__card poster_serie_18"></div>
+                        <a href="#section3" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+                    </div>
+                </section>
+            </div>
+        </main>   
+        <!-- Rodapé do site -->
+        <footer class="rodape">
+            <ul class="rodape__sociais">
+                <li><a class="rodape__link" href="#"><i class="rodape__icone fab fa-facebook"></i></a></li>
+                <li><a class="rodape__link" href="#"><i class="rodape__icone fab fa-instagram"></i></a></li>
+                <li><a class="rodape__link" href="#"><i class="rodape__icone fab fa-twitter"></i></a></li>
+                <li><a class="rodape__link" href="#"><i class="rodape__icone fab fa-youtube"></i></a></li>
+            </ul>
+            <ul class="rodape__links">
+                <li class="rodape__item"><a class="rodape__link" href="#">Idioma e legendas</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Audiodescrição</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Centro de ajuda</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Cartão pré-pago</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Imprensa</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Relações com investidores</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Carreiras</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Termos de uso</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Privacidade</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Avisos legais</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Preferência de cookies</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Informações corporativas</a></li>
+                <li class="rodape__item"><a class="rodape__link" href="#">Entre em contato</a></li>
+            </ul>
+            <a class="rodape__codigo" href="#">Código de serviço</a>
+            <p class="rodape__direitos">© 1997-2021 Netflix, Inc.</p>
+        </footer>
+    </body>
+</html>

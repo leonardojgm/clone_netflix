@@ -1,0 +1,66 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+    margin: 3rem 0 0 0;
+}
+
+.rodape__sociais {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rodape__icone {
+    font-size: 1.5rem;
+}
+
+.rodape__links {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--branco-transparente);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.rodape__link:hover {
+    color: var(--branco);
+    text-decoration: underline; 
+}
+
+.rodape__codigo {
+    text-decoration: none;
+    color: var(--branco-transparente);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    width: 10rem;
+    text-align: center;
+    border: 1px solid var(--branco-transparente);
+}
+
+.rodape__codigo:hover {
+    color: var(--branco);
+}
+
+.rodape__direitos {
+    color: var(--branco-transparente);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    width: 100%;
+    margin: 2.5rem 0;
+}
